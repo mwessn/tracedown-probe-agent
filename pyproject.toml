@@ -1,6 +1,6 @@
 [project]
 name = "tracedown-probe-agent"
-version = "0.1.0"
+version = "0.1.1"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.10"
 dependencies = [
@@ -20,7 +20,7 @@ dev = [
     "pytest>=8.0",
     "pytest-asyncio>=0.25.0",
     "httpx>=0.28.0",
-    "ruff>=0.11.0",
+    "ruff>=0.16,<0.17",
 ]
 
 [tool.pytest.ini_options]
